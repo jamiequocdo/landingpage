@@ -1,0 +1,31 @@
+/*Affects the entire page*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+/*Header only section*/
+.container-header {
+    display: flex;
+}
+
+.header {
+
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
