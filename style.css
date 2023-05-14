@@ -12,6 +12,8 @@ body {
 .top {
     padding: 0 100px;
     background-color: #1F2937;
+    color: #F9FAF8;
+    height: 500px;
 }
 .container-header {
     display: flex;
@@ -24,7 +26,6 @@ body {
 
 .header {
     font-size: 24px;
-    color: #F9FAF8;
 }
 ul {
     list-style-type: none;
@@ -38,6 +39,34 @@ ul {
 a {
     text-decoration: none;
     color: #E5E7EB;
+}
+
+.container-intro {
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+}
+
+.subtext {
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.sign-up{
+    align-self: flex-start;
+    background-color: #3882F6;
+    height: 50px;
+    width: 100px;
+    
+}
+img {
+    height: 300px;
+    width: 600px;
+
 }
 
 
