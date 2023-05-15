@@ -10,14 +10,13 @@ body {
 
 /*Header only section*/
 .top {
-    padding: 0 100px;
-    background-color: #1F2937;
-    color: #F9FAF8;
-    height: 500px;
+    padding: 0 200px;                     /*Changes the width of content at the borders of the page*/
+    background-color: #1F2937;          /*Changes color of entire section under class="top"*/
+    color: #F9FAF8;                     /*Changes font color of all text in class="top*/                     /*Changes the height of class="top"*/
 }
-.container-header {
-    display: flex;
-    justify-content: space-between;
+.container-header {                       /*Contains HEADER LOGO & HEADER LINK items*/
+    display: flex;                        /*Gives the container to move items in it using the flexbox layout*/
+    justify-content: space-between;       /*Positions items so that each one has equal space between each other in a horizontal manner*/
     height: 100px;
     align-items: center;
     font-size: 24px;
@@ -26,6 +25,7 @@ body {
 
 .header {
     font-size: 24px;
+    font-weight: 900;
 }
 ul {
     list-style-type: none;
@@ -44,6 +44,7 @@ a {
 .container-intro {
     display: flex;
     justify-content: space-between;
+    margin: 50px 0;
 }
 
 .intro {
@@ -51,9 +52,15 @@ a {
     flex-direction: column;
 }
 
+.intro-header {
+    font-size: 75px;
+    font-weight: 900;
+}
+
 .subtext {
     width: 300px;
     margin-bottom: 10px;
+    font-size: 24px;
 }
 
 .sign-up{
@@ -61,12 +68,15 @@ a {
     background-color: #3882F6;
     height: 50px;
     width: 100px;
-    
+    border-radius: 15px;
+    border-style: none;
+    color: #E5E7EB;
+    font-size: 16px;
+    font-weight: 700;
 }
 img {
     height: 300px;
     width: 600px;
-
 }
 
 
