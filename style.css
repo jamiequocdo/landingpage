@@ -130,3 +130,43 @@ a {
     font-weight: lighter;
 }
 
+.author {
+    align-self: flex-end;
+}
+
+/*Footer*/
+
+.footer {
+    display: flex;
+    background-color: #3882F6;
+    padding: 20px 50px;
+    margin: 100px;
+    gap: 20px;
+    align-items: center;
+    color: #E5E7EB;
+    border-radius: 10px;
+
+
+}
+
+.footer-sign {
+    border: 1px solid white;
+    background-color: #3882F6;
+    height: 50px;
+    width: 100px;
+    border-radius: 15px;
+    color: #E5E7EB;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+.action {
+    font-weight: 900;
+    font-size: 24px;
+    margin: 0;
+}
+
+.product {
+    margin: 0;
+}
