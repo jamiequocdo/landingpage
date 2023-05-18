@@ -112,3 +112,10 @@ a {
 
 /*Body Two Section: Quote by Thor*/
 
+.container-body-two {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    padding: 0 200px;
+}
+
