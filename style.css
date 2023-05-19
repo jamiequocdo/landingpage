@@ -4,16 +4,18 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 0;
     margin: 0;
-    align-items: center;
-}
+    padding: 0;
 
+}
 /*Header only section*/
-.top {
-    padding: 0 200px;                     /*Changes the width of content at the borders of the page*/
+.top {             /*Changes the width of content at the borders of the page*/
     background-color: #1F2937;          /*Changes color of entire section under class="top"*/
     color: #F9FAF8;                     /*Changes font color of all text in class="top*/                     /*Changes the height of class="top"*/
+    display: flex;
+    flex-direction: column;
+    padding: 0 200px;
+    flex: 0;
 }
 .container-header {                       /*Contains HEADER LOGO & HEADER LINK items*/
     display: flex;                        /*Gives the container to move items in it using the flexbox layout*/
@@ -21,7 +23,6 @@ body {
     height: 100px;
     align-items: center;
     font-size: 24px;
-    
 }
 
 .header {
