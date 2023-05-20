@@ -1,8 +1,6 @@
 /*Affects the entire page*/
 
 body {
-    display: flex;
-    flex-direction: column;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
@@ -15,7 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 0 200px;
-    flex: 0;
+    align-items: center;                /*Keeps all items centered despite window growing horizontally*/
 }
 .container-header {                       /*Contains HEADER LOGO & HEADER LINK items*/
     display: flex;                        /*Gives the container to move items in it using the flexbox layout*/
@@ -23,6 +21,7 @@ body {
     height: 100px;
     align-items: center;
     font-size: 24px;
+    width: 1250px;                        /*Gives header the width needed to properly use the justify-content: space-between;*/
 }
 
 .header {
@@ -52,6 +51,7 @@ a {
 .intro {
     display: flex;
     flex-direction: column;
+    width: 650px;
 }
 
 .intro-header {
@@ -118,8 +118,8 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     padding: 100px 200px;
-    width: 1000px;
     background-color: #E5E7EB;
 }
 
@@ -129,6 +129,8 @@ a {
     font-style: italic;
     color: #1F2937;
     font-weight: lighter;
+    max-width: 900px;
+    text-align: center;
 }
 
 .author {
@@ -141,11 +143,12 @@ a {
     display: flex;
     background-color: #3882F6;
     padding: 20px 50px;
-    margin: 100px;
-    gap: 20px;
+    gap: 30px;
     align-items: center;
     color: #E5E7EB;
     border-radius: 10px;
+    justify-content: center;
+    margin: 50px 
 
 
 }
