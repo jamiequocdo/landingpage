@@ -118,14 +118,21 @@ a {
 
 /*Body Two Section: Quote by Thor*/
 
+/*Had an issue with "Thor, God of Thunder" (.author)
+    not aligned to the left side but as well not staying
+    in the middle of the page when stretcher.
+    Solution: give .container-body-two align-items: center;
+    give .author text-align: end;
+    give .author ALSO the correct WIDTH!  Originally had
+    width: 900px, which complicated things.
+    Can give .flex: none to ensure everything stays the same size.*/
+
 .container-body-two {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding: 100px 200px;
     background-color: #E5E7EB;
-    
+    align-items: center;
 }
 
 .quote,
@@ -134,13 +141,14 @@ a {
     font-style: italic;
     color: #1F2937;
     font-weight: lighter;
-    max-width: 900px;
-    text-align: center;
+    text-align: left;
+    width: 1162px;
+    flex: none;
 }
 
 .author {
-    margin-left: auto;
-    max-width: 1000px;
+    text-align: end;
+
 }
 
 /*Footer*/
