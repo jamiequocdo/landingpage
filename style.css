@@ -191,3 +191,11 @@ a {
 .product {
     margin: 0;
 }
+
+.copyright {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    padding: 24px 0;
+}
